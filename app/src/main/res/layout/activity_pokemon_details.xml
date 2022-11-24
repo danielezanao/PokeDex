@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PokemonDetailsActivity">
+
+    <TextView
+        android:id="@+id/detail_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textColor="#0FC2C0"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:padding="24dp"/>
+
+    <ImageView
+        android:id="@+id/detail_imagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/detail_tipos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DBF227"
+        android:gravity="start"
+        android:text="TIPOS"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/detail_stats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF6B1A"
+        android:gravity="start"
+        android:text="Stats"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/detail_habilidades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#A6096A"
+        android:gravity="start"
+        android:text="Habilidades"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/detail_movimentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#44803F"
+        android:gravity="start"
+        android:text="Movimentos"
+        android:padding="20dp"/>
+
+
+</LinearLayout>
